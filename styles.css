@@ -1,0 +1,44 @@
+.window {
+  width: 600px;
+  position: relative;
+  top: 30vh;
+  right: -30vw;
+  -webkit-box-shadow: 8px 8px 19px -5px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 19px -5px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 19px -5px rgba(66, 68, 90, 1);
+  padding: 20px 40px 20px 40px;
+  border-radius: 15px;
+}
+.cancel {
+  height: 30px;
+  width: 100px;
+  background-color: red;
+  border: none;
+}
+.cancel:hover {
+  background-color: rgba(241, 128, 128, 0.973);
+  transition: 1s;
+}
+.submit {
+  height: 30px;
+  width: 100px;
+  background-color: green;
+  border: none;
+}
+.submit:hover {
+  background-color: rgb(0, 255, 85);
+  transition: 1s;
+}
+
+.close {
+  position: absolute;
+  top: 8px;
+  left: 650px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+}
+.close:hover {
+  background-color: red;
+  transition: 0.5s;
+}
